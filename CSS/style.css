@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.main{
+    width: 200px;
+    height: 200px;
+    background: orange;
+    text-align: center;
+    overflow: hidden;
+    margin: 100px auto;
+}
+
+.main:hover{
+    transform: scale(0.90);
+    transition: 0.24s;
+}
+
+.main img{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.main img:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.main a{
+
+    margin: auto;
+    position: relative;
+    height: 20px;
+    top: -52px;
+    color: aliceblue;
+
+}
+
+.main a:hover{
+    text-decoration: underline;
+}
+
+.title{
+    width: 100%;
+    height: 28px;
+    background: black;
+    float: left;
+    position: relative;
+    top: -28px;
+    opacity: 0.6;
+}
